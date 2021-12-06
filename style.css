@@ -238,11 +238,16 @@ h1.tmname {
 div.hourofcode {
 	background-color: var(--dark-blue);
 	color: var(--white);
-	padding: 5vw 5vw;
+	padding: 5vw;
 }
 
-div.hourofcode a { color: var(--yellow); }
-div.hourofcode a:hover { text-decoration: none; transition-duration: 1s; }
+div.hourofcode a {
+	color: var(--yellow);
+}
+div.hourofcode a:hover {
+	text-decoration: none;
+	transition-duration: 1s;
+}
 
 div.hourofcode h1 {
 	font-size: 4vw;
@@ -257,4 +262,43 @@ div.hourofcode img {
 	padding: 20px;
 	float: right;
 	height: 40vh;
+}
+
+/* ABOUT WEBSITE */
+div.webproj {
+	background-color: var(--dark-blue);
+	color: var(--white);
+	padding: 5vw;
+}
+
+div.webproj h1 {
+	padding-bottom: 15px;
+}
+
+div.webproj h1:nth-of-type(1) { font-size: 3vw; }
+
+div.webproj p {
+	font-size: 1.5vw;
+}
+
+div.webproj a {
+	text-decoration: none;
+}
+
+div.members {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 10px;
+}
+
+div.webproj .members div.p {
+	background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+	color: rgb(255, 255, 255);
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+div.webproj .members div.p:hover {
+	background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
 }
