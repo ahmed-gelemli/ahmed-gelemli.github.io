@@ -233,3 +233,28 @@ h1.tmname {
 .ppl .person:hover h3 {
 	color: var(--yellow);
 }
+
+/* HOUR OF CODE */
+div.hourofcode {
+	background-color: var(--dark-blue);
+	color: var(--white);
+	padding: 5vw 5vw;
+}
+
+div.hourofcode a { color: var(--yellow); }
+div.hourofcode a:hover { text-decoration: none; transition-duration: 1s; }
+
+div.hourofcode h1 {
+	font-size: 4vw;
+	padding-bottom: 15px;
+}
+
+div.hourofcode p {
+	font-size: 1.8vw;
+}
+
+div.hourofcode img {
+	padding: 20px;
+	float: right;
+	height: 40vh;
+}
