@@ -159,6 +159,7 @@ main {
 	justify-content: space-around;
 	align-items: center;
 	padding: 3vw 5vw;
+	min-height: 80vh;
 }
 
 main img {
