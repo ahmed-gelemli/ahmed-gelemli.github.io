@@ -182,7 +182,7 @@ main img {
 }
 
 .main .opening h1 {
-	font-size: clamp(20px, 4vw, 4vw);
+	font-size: clamp(30px, 4vw, 4vw);
 }
 
 .about {
@@ -230,4 +230,6 @@ h1.tmname {
 	filter: brightness(120%);
 }
 
-.ppl .person;
+.ppl .person:hover h3 {
+	color: var(--yellow);
+}
