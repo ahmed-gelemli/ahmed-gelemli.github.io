@@ -154,18 +154,6 @@ footer p.ics a:hover i {
 	transition-duration: 0.3s;
 }
 
-main {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	padding: 2vw 5vw;
-}
-
-main img {
-	height: 70vh;
-	padding: 20px;
-}
-
 .main .opening {
 	background-color: var(--dark-blue);
 	color: white;
@@ -275,7 +263,9 @@ div.webproj h1 {
 	padding-bottom: 15px;
 }
 
-div.webproj h1:nth-of-type(1) { font-size: 3vw; }
+div.webproj h1:nth-of-type(1) {
+	font-size: 3vw;
+}
 
 div.webproj p {
 	font-size: 1.5vw;
